@@ -1,0 +1,158 @@
+// Custom.scss
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Jockey+One&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+$font-family-sans-serif: 'Poppins' !important;
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+body{
+
+    .btn{
+        font-size: 1rem;
+        text-transform: uppercase;
+        border: none;
+        background-color: #1587B3;
+
+
+        &:hover{
+            color: #1587B3;
+            background-color: #ddd;
+        }
+    }
+}
+// navbar start
+.navbar{
+
+    .navbar-brand{
+        font-size: 2rem;
+        font-weight: bold;
+
+        span{
+            color: rgb(0, 123, 238);
+        }
+    }
+
+    .navbar-nav{
+
+
+        a{
+            text-transform: uppercase;
+            letter-spacing: 1px;
+
+            &:hover{
+                color: rgb(0, 123, 238);
+            }
+        }
+    }
+}
+// navbar end
+
+// branding start
+.branding-section{
+
+
+    .card-group{
+        justify-content: center;
+        transform: translateY(100px);
+
+
+        .brand-card{
+            padding: 1rem;
+            background-color: #ddd;
+        }
+    }
+
+// dashboard start
+.dashboard{
+    padding: 400px 0;
+    background-color: #000;
+    color: #ddd;
+
+    .user-section{
+        justify-content: center;
+        display: flex;
+    }
+}
+// dashboard end
+
+}
+// branding end
+
+
+// result start
+.result-section{
+
+    h3{
+        font-size: 2rem;
+    }
+
+    p{
+        color: #666;
+        width: 80%;
+    }
+
+    img{
+        width: 50%;
+        border-radius: 2rem;
+    }
+
+    .result-cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .range-group{
+        display: flex;
+
+        .range{
+            width: 6px;
+            height: 60%;
+            background-color: #000;
+        }
+    }
+}
+// result end
+
+// companies start
+.com-section{
+    display: flex;
+    align-items: center;
+
+    img{
+        width: 200px;
+        opacity: 0.20;
+    }
+}
+// companies end
+
+// footer start
+.footer-section{
+    background-color: #000;
+    color: #ddd;
+    padding: 3rem;
+
+    h5{
+        font-size: 1rem;
+        color: #999;
+    }
+
+    .icons{
+        
+        i{
+            padding: 0 0.8rem;
+
+            &:hover{
+                color: #1587B3;
+                transition: 0.3s ease-in;
+            }
+        }
+    }
+
+    small{
+        color: #555;
+    }
+}
+// footer end
